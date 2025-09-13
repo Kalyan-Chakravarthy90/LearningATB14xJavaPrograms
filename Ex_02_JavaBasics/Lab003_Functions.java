@@ -54,7 +54,7 @@ public class Lab003_Functions {
     }
 
     public static float main(float args) {
-        return 1;
+        return 1010;
 
     }
 
