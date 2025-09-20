@@ -34,11 +34,11 @@ public class Lab003_Functions {
             return "Hello";
         }
     // Type 3: Function Definition with Param and  with Return Type
-        static int add(int a, int b, int c){ /*Function which returns*/
+      public   static int add(int a, int b, int c){ /*Function which returns*/
            return a+b+c;
         }
     // Type 4: Function Definition with Param and without Return Type
-        static void Name_Age(String name, int age){/*Function which doesn't return*/
+       public static void Name_Age(String name, int age){/*Function which doesn't return*/
             System.out.println(name + " is " + age + " years old");
         }
     // Type 5: Main Method Overloading
