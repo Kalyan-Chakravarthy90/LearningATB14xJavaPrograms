@@ -12,10 +12,13 @@ public class NineTableRecursive {
         // Recursive step: Print the current line and call the method again
         System.out.printf("%d * %d = %d%n", number, i, number * i);
         printTable(number, i + 1);
+
+
     }
 
     public static void main(String[] args) {
         // Start the recursion with 9 and the initial multiplier of 1
         printTable(9, 1);
+
     }
 }
