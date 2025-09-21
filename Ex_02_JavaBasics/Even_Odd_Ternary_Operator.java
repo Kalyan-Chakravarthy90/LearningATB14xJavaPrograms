@@ -23,7 +23,7 @@ public class Even_Odd_Ternary_Operator {
             int New_Number = New_input.nextInt();
             EvenOrOdd(New_Number);
             }else if (option.equalsIgnoreCase("No")){
-                System.out.println("Thanks ! Terminating the session");
+                System.out.println("Thanks ! Terminating the session...");
                 scanner.close();
             }else System.out.println("Invalid Option Select Yes or No");
         } while (!option.equalsIgnoreCase("No"));
