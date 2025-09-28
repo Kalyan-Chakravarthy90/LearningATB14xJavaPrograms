@@ -4,7 +4,7 @@ public class NineTableRecursive {
 
     // A recursive method to print the multiplication table
     public static void printTable(int number, int i) {
-        // Base case: Stop the recursion when i is greater than 10
+        // Base case: Stop the recursion when I is greater than 10
         if (i > 12) {
             return;
         }
